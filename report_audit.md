@@ -38,16 +38,16 @@
 
 | section | words |
 |---|---:|
-| Q1 | 256 |
+| Q1 | 290 |
 | Q2 | 265 |
 | Q3 | 264 |
 | Q4 | 273 |
-| Q5 | 255 |
-| Q6 | 288 |
+| Q5 | 271 |
+| Q6 | 300 |
 | Q7 | 278 |
 | Q8 | 299 |
 | Reflection - Direct answer | 37 |
-| Reflection - Why a single number fails | 263 |
+| Reflection - Why a single number fails | 340 |
 | Reflection - Grounding in evidence | 79 |
 | Reflection - Closing | 55 |
 | Reflection - Reproducibility | 49 |
