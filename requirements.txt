@@ -5,9 +5,12 @@ scikit-learn==1.9.1
 matplotlib==3.11.2
 statsmodels==0.15.0
 
-# Notebook / execution (only needed to run the .ipynb, not full_analysis.py)
+# Notebook / execution
 nbformat==5.11.1
 nbconvert==7.17.2
 ipykernel==7.4.0
 jupyter_client==8.10.0
-jupyter_core==5.9.1
+
+# Reproducible PDF build
+reportlab==4.4.9
+pypdf==5.9.0
