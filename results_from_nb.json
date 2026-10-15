@@ -36,10 +36,10 @@
   "logistic_penalty": "None (unpenalised MLE for all coefficient comparisons, matches statsmodels)",
   "race_reference": "Amer-Indian-Eskimo (first alphabetical race level dropped by drop_first=True)",
   "modelA": {
-    "median": 0.21938256456936783,
+    "median": 0.2193825645693671,
     "mean": 0.23933553297415888,
-    "min": -0.4093348302341492,
-    "max": 1.6341750158000838,
+    "min": -0.40933483023414785,
+    "max": 1.6341750158000794,
     "acc": 0.7092063058759298
   },
   "modelB": {
@@ -65,254 +65,254 @@
   "logr_top": [
     [
       "marital-status_Married-AF-spouse",
-      2.752889256879218
+      2.7528894633684793
     ],
     [
       "marital-status_Married-civ-spouse",
-      2.3365438870092956
+      2.336543829221882
     ],
     [
       "capital-gain",
-      2.3303207982743546
+      2.330320586906065
     ],
     [
       "relationship_Wife",
-      1.1554366093307993
+      1.1554371137174497
     ],
     [
       "sex_Male",
-      0.7915535876696715
+      0.7915539903228304
     ],
     [
       "race_Asian-Pac-Islander",
-      0.7891148960577249
+      0.789114636521662
     ],
     [
       "education-num",
-      0.7679582544586132
+      0.7679583711324498
     ],
     [
       "occupation_Exec-managerial",
-      0.7653206934523663
+      0.7653210011600253
     ]
   ],
   "logr_bottom": [
     [
       "occupation_Priv-house-serv",
-      -2.1145283875860224
+      -2.1145284098877792
     ],
     [
       "workclass_Without-pay",
-      -1.9567084090291222
+      -1.9567087019478242
     ],
     [
       "workclass_Self-emp-not-inc",
-      -1.0095398057659062
+      -1.0095398425448496
     ],
     [
       "occupation_Farming-fishing",
-      -1.0017970029788803
+      -1.0017963359529445
     ],
     [
       "occupation_Other-service",
-      -0.8454042206959965
+      -0.8454041401492267
     ],
     [
       "workclass_State-gov",
-      -0.8005480595102377
+      -0.8005479435140672
     ],
     [
       "occupation_Handlers-cleaners",
-      -0.6685079515072989
+      -0.668507296998006
     ],
     [
       "workclass_Local-gov",
-      -0.6079076649631622
+      -0.6079077107048051
     ]
   ],
   "simpson_full": {
-    "age": 0.3188167591955064,
-    "education-num": 0.7679582544586132,
-    "hours-per-week": 0.39723180351634785,
-    "capital-gain": 2.3303207982743546
+    "age": 0.31881686076833465,
+    "education-num": 0.7679583711324498,
+    "hours-per-week": 0.39723181856297196,
+    "capital-gain": 2.330320586906065
   },
   "simpson_sub": {
     "Male": {
-      "age": 0.2950965865045974,
-      "fnlwgt": 0.08577109123456599,
-      "education-num": 0.7334724911399929,
-      "capital-gain": 2.290277430462439,
-      "capital-loss": 0.23916469006010035,
-      "hours-per-week": 0.39676935113181105,
-      "workclass_Local-gov": -0.571986462506589,
-      "workclass_Never-worked": -0.06514704591734358,
-      "workclass_Private": -0.49225343010671535,
-      "workclass_Self-emp-inc": -0.396996015924442,
-      "workclass_Self-emp-not-inc": -1.0081228201040113,
-      "workclass_State-gov": -0.780685592442296,
-      "workclass_Without-pay": -2.2365380670427966,
-      "marital-status_Married-AF-spouse": 1.081950571127936,
-      "marital-status_Married-civ-spouse": 1.987938646101858,
-      "marital-status_Married-spouse-absent": -0.047087328146758076,
-      "marital-status_Never-married": -0.5658063858598067,
-      "marital-status_Separated": -0.06559941452563488,
-      "marital-status_Widowed": 0.4170413448285476,
-      "occupation_Armed-Forces": 0.16931227019102726,
-      "occupation_Craft-repair": -0.01818337277242627,
-      "occupation_Exec-managerial": 0.7566060999820851,
-      "occupation_Farming-fishing": -0.9467080551088042,
-      "occupation_Handlers-cleaners": -0.7064169281825479,
-      "occupation_Machine-op-inspct": -0.3767329699399683,
-      "occupation_Other-service": -0.9024579846350707,
-      "occupation_Priv-house-serv": -1.0009628449907817,
-      "occupation_Prof-specialty": 0.2812013515091461,
-      "occupation_Protective-serv": 0.33617263748489296,
-      "occupation_Sales": 0.2714772332412574,
-      "occupation_Tech-support": 0.5482008606668279,
-      "occupation_Transport-moving": -0.18072860335502233,
-      "relationship_Not-in-family": 0.28153693349897235,
-      "relationship_Other-relative": -0.7826211067911829,
-      "relationship_Own-child": -0.8316769427971917,
-      "relationship_Unmarried": 0.4360470441482759,
-      "relationship_Wife": -0.16117125181640327,
-      "race_Asian-Pac-Islander": 1.0665651167063832,
-      "race_Black": 0.7133616047435458,
-      "race_Other": 0.7380408873518539,
-      "race_White": 0.928652487774907,
-      "native-country-grouped_United-States": 0.2913204739370566
+      "age": 0.29509657542597084,
+      "fnlwgt": 0.08577110345934227,
+      "education-num": 0.7334725201407089,
+      "capital-gain": 2.2902774577493523,
+      "capital-loss": 0.23916467754688425,
+      "hours-per-week": 0.39676923648207546,
+      "workclass_Local-gov": -0.5719861467105756,
+      "workclass_Never-worked": -0.06514708331651482,
+      "workclass_Private": -0.49225330706740883,
+      "workclass_Self-emp-inc": -0.3969959575794169,
+      "workclass_Self-emp-not-inc": -1.0081229189681766,
+      "workclass_State-gov": -0.780685727047082,
+      "workclass_Without-pay": -2.236539065445723,
+      "marital-status_Married-AF-spouse": 1.08195120142408,
+      "marital-status_Married-civ-spouse": 1.9879390602027507,
+      "marital-status_Married-spouse-absent": -0.047086973580036974,
+      "marital-status_Never-married": -0.5658067320581562,
+      "marital-status_Separated": -0.06559930266242986,
+      "marital-status_Widowed": 0.4170417378936489,
+      "occupation_Armed-Forces": 0.16931234908805418,
+      "occupation_Craft-repair": -0.018183202223893177,
+      "occupation_Exec-managerial": 0.756606063183435,
+      "occupation_Farming-fishing": -0.9467080161302411,
+      "occupation_Handlers-cleaners": -0.7064166825941948,
+      "occupation_Machine-op-inspct": -0.3767330415502516,
+      "occupation_Other-service": -0.9024575448499716,
+      "occupation_Priv-house-serv": -1.000963418871053,
+      "occupation_Prof-specialty": 0.28120133073719045,
+      "occupation_Protective-serv": 0.3361728546220562,
+      "occupation_Sales": 0.2714771696626759,
+      "occupation_Tech-support": 0.5482009606884515,
+      "occupation_Transport-moving": -0.1807284727480962,
+      "relationship_Not-in-family": 0.28153735499489596,
+      "relationship_Other-relative": -0.7826212214181009,
+      "relationship_Own-child": -0.8316763985571877,
+      "relationship_Unmarried": 0.4360472035960217,
+      "relationship_Wife": -0.1611713493578158,
+      "race_Asian-Pac-Islander": 1.0665650507208624,
+      "race_Black": 0.7133614575260813,
+      "race_Other": 0.7380410227142623,
+      "race_White": 0.9286525745804024,
+      "native-country-grouped_United-States": 0.29132034958907704
     },
     "Female": {
-      "age": 0.41272032748355925,
-      "fnlwgt": 0.05287345236048623,
-      "education-num": 0.9318906197368104,
-      "capital-gain": 2.464076554837709,
-      "capital-loss": 0.24681825838944382,
-      "hours-per-week": 0.38535562634175546,
-      "workclass_Local-gov": -0.7805563670977558,
-      "workclass_Never-worked": -0.34553588708644206,
-      "workclass_Private": -0.6817377467974303,
-      "workclass_Self-emp-inc": -0.6465384357670274,
-      "workclass_Self-emp-not-inc": -0.8189901414414473,
-      "workclass_State-gov": -0.8034767785793561,
-      "workclass_Without-pay": -0.9810114779422657,
-      "marital-status_Married-AF-spouse": 3.8571487390043107,
-      "marital-status_Married-civ-spouse": 2.956161846871976,
-      "marital-status_Married-spouse-absent": 0.05034875165070837,
-      "marital-status_Never-married": -0.2514450425934196,
-      "marital-status_Separated": -0.0698244573973612,
-      "marital-status_Widowed": -0.050945427770908054,
-      "occupation_Craft-repair": 0.01548807153279377,
-      "occupation_Exec-managerial": 0.826429001063916,
-      "occupation_Farming-fishing": -2.1754947714008823,
-      "occupation_Handlers-cleaners": -0.3938591298003394,
-      "occupation_Machine-op-inspct": -0.48652173217619754,
-      "occupation_Other-service": -0.733867605444571,
-      "occupation_Priv-house-serv": -2.030802534469325,
-      "occupation_Prof-specialty": 0.24331068833058175,
-      "occupation_Protective-serv": 1.2015502751464304,
-      "occupation_Sales": 0.010793558182542629,
-      "occupation_Tech-support": 0.18031310212407442,
-      "occupation_Transport-moving": -0.1293743450124363,
-      "relationship_Not-in-family": 0.037774956173807904,
-      "relationship_Other-relative": -1.1684389850906702,
-      "relationship_Own-child": -1.0457721755700389,
-      "relationship_Unmarried": -0.3894519227930548,
-      "relationship_Wife": 0.04603092527895389,
-      "race_Asian-Pac-Islander": 0.07291956481339294,
-      "race_Black": -0.23472047490188863,
-      "race_Other": -0.3263719680860099,
-      "race_White": 0.2851562008280113,
-      "native-country-grouped_United-States": -0.03745251978214985
+      "age": 0.4127203275050716,
+      "fnlwgt": 0.052873452378468945,
+      "education-num": 0.9318906198412009,
+      "capital-gain": 2.4640765546912196,
+      "capital-loss": 0.24681825842680766,
+      "hours-per-week": 0.3853556263206513,
+      "workclass_Local-gov": -0.7805563670460627,
+      "workclass_Never-worked": -0.34553588718728845,
+      "workclass_Private": -0.6817377467995855,
+      "workclass_Self-emp-inc": -0.6465384358274909,
+      "workclass_Self-emp-not-inc": -0.8189901413910949,
+      "workclass_State-gov": -0.8034767785647952,
+      "workclass_Without-pay": -0.9810114781825727,
+      "marital-status_Married-AF-spouse": 3.857148739376599,
+      "marital-status_Married-civ-spouse": 2.9561618469863014,
+      "marital-status_Married-spouse-absent": 0.050348751669649,
+      "marital-status_Never-married": -0.2514450425915175,
+      "marital-status_Separated": -0.06982445716917644,
+      "marital-status_Widowed": -0.0509454277364577,
+      "occupation_Craft-repair": 0.015488071642816258,
+      "occupation_Exec-managerial": 0.8264290009994866,
+      "occupation_Farming-fishing": -2.1754947715421284,
+      "occupation_Handlers-cleaners": -0.3938591298126625,
+      "occupation_Machine-op-inspct": -0.4865217321844496,
+      "occupation_Other-service": -0.7338676053114727,
+      "occupation_Priv-house-serv": -2.0308025345822505,
+      "occupation_Prof-specialty": 0.24331068820654192,
+      "occupation_Protective-serv": 1.2015502751015579,
+      "occupation_Sales": 0.010793558233121238,
+      "occupation_Tech-support": 0.18031310213390578,
+      "occupation_Transport-moving": -0.12937434504857853,
+      "relationship_Not-in-family": 0.037774956221390384,
+      "relationship_Other-relative": -1.1684389852533474,
+      "relationship_Own-child": -1.045772175557021,
+      "relationship_Unmarried": -0.38945192279401697,
+      "relationship_Wife": 0.04603092525460524,
+      "race_Asian-Pac-Islander": 0.07291956474412069,
+      "race_Black": -0.23472047490880746,
+      "race_Other": -0.3263719679582522,
+      "race_White": 0.28515620085722865,
+      "native-country-grouped_United-States": -0.03745251971036036
     },
     "Age<30": {
-      "age": 3.355288539841212,
-      "fnlwgt": 0.07986495690524316,
-      "education-num": 0.7200199433108576,
-      "capital-gain": 2.3946039891660766,
-      "capital-loss": 0.31696429966705914,
-      "hours-per-week": 0.38698394102934525,
-      "sex_Male": 0.611003202579353,
-      "workclass_Local-gov": -0.2831103242509149,
-      "workclass_Never-worked": -0.015032928735031504,
-      "workclass_Private": -0.3140153411115384,
-      "workclass_Self-emp-inc": 0.4870206508890678,
-      "workclass_Self-emp-not-inc": 0.3455227798442454,
-      "workclass_State-gov": -0.5506729046390179,
-      "workclass_Without-pay": -0.3700884116398506,
-      "marital-status_Married-AF-spouse": 4.668616952914698,
-      "marital-status_Married-civ-spouse": 2.7506356214626937,
-      "marital-status_Married-spouse-absent": -2.4161503414508947,
-      "marital-status_Never-married": 0.023841530052161004,
-      "marital-status_Separated": 0.2718341931928317,
-      "marital-status_Widowed": 1.0972439044370408,
-      "occupation_Armed-Forces": 1.9425988057751873,
-      "occupation_Craft-repair": 0.02304673377593122,
-      "occupation_Exec-managerial": 0.7044196087625506,
-      "occupation_Farming-fishing": -1.3072983544848082,
-      "occupation_Handlers-cleaners": -0.3193524931223949,
-      "occupation_Machine-op-inspct": -0.706634363137901,
-      "occupation_Other-service": -0.505936202104592,
-      "occupation_Priv-house-serv": -1.132897348222687,
-      "occupation_Prof-specialty": 0.3228041869260705,
-      "occupation_Protective-serv": 0.7493761471459277,
-      "occupation_Sales": 0.3906408603577819,
-      "occupation_Tech-support": 0.27772108175556925,
-      "occupation_Transport-moving": 0.3398779686547625,
-      "relationship_Not-in-family": 0.539971011196965,
-      "relationship_Other-relative": -0.6918868457002466,
-      "relationship_Own-child": -0.16372138391215074,
-      "relationship_Unmarried": 0.5487678581265998,
-      "relationship_Wife": 0.953105480815107,
-      "race_Asian-Pac-Islander": 0.9186322858995732,
-      "race_Black": -0.2706385962644355,
-      "race_Other": -0.38074788640199503,
-      "race_White": 0.227064207763601,
-      "native-country-grouped_United-States": 0.2875720669546887
+      "age": 3.3552885670095813,
+      "fnlwgt": 0.07986495894740343,
+      "education-num": 0.7200199351017711,
+      "capital-gain": 2.394603981941969,
+      "capital-loss": 0.31696430087054994,
+      "hours-per-week": 0.38698393578114487,
+      "sex_Male": 0.611003233795344,
+      "workclass_Local-gov": -0.2831103214798159,
+      "workclass_Never-worked": -0.015032929163220354,
+      "workclass_Private": -0.31401534148529664,
+      "workclass_Self-emp-inc": 0.4870206590819569,
+      "workclass_Self-emp-not-inc": 0.3455227875059626,
+      "workclass_State-gov": -0.5506728907563393,
+      "workclass_Without-pay": -0.3700884310667062,
+      "marital-status_Married-AF-spouse": 4.668617007759406,
+      "marital-status_Married-civ-spouse": 2.7506356631754474,
+      "marital-status_Married-spouse-absent": -2.4161503934665443,
+      "marital-status_Never-married": 0.02384152018036962,
+      "marital-status_Separated": 0.2718342098098267,
+      "marital-status_Widowed": 1.097243934212138,
+      "occupation_Armed-Forces": 1.942598867634098,
+      "occupation_Craft-repair": 0.02304673454620199,
+      "occupation_Exec-managerial": 0.7044196277921573,
+      "occupation_Farming-fishing": -1.3072983691195874,
+      "occupation_Handlers-cleaners": -0.31935247718457793,
+      "occupation_Machine-op-inspct": -0.706634369897685,
+      "occupation_Other-service": -0.5059362021357493,
+      "occupation_Priv-house-serv": -1.1328973884963902,
+      "occupation_Prof-specialty": 0.32280420022510903,
+      "occupation_Protective-serv": 0.7493761474833303,
+      "occupation_Sales": 0.39064085740143867,
+      "occupation_Tech-support": 0.27772109582834337,
+      "occupation_Transport-moving": 0.33987795375967367,
+      "relationship_Not-in-family": 0.5399710620019739,
+      "relationship_Other-relative": -0.6918868495054438,
+      "relationship_Own-child": -0.1637213216421875,
+      "relationship_Unmarried": 0.5487678906828387,
+      "relationship_Wife": 0.953105518069802,
+      "race_Asian-Pac-Islander": 0.9186322881216196,
+      "race_Black": -0.27063857495691457,
+      "race_Other": -0.3807479009402108,
+      "race_White": 0.22706421336821062,
+      "native-country-grouped_United-States": 0.2875720827789634
     },
     "Age>=30": {
-      "age": 0.10651343278609322,
-      "fnlwgt": 0.08377169920976153,
-      "education-num": 0.7350239173734605,
-      "capital-gain": 2.3514059814496453,
-      "capital-loss": 0.2301949906960628,
-      "hours-per-week": 0.35599080007112544,
-      "sex_Male": 0.790426921793356,
-      "workclass_Local-gov": -0.6466554008046299,
-      "workclass_Never-worked": -0.5343904418558153,
-      "workclass_Private": -0.5168391217579728,
-      "workclass_Self-emp-inc": -0.46203760456383214,
-      "workclass_Self-emp-not-inc": -1.0638954955873128,
-      "workclass_State-gov": -0.791422797495018,
-      "workclass_Without-pay": -2.429277623977294,
-      "marital-status_Married-AF-spouse": 2.4857244832313787,
-      "marital-status_Married-civ-spouse": 2.4495700293893683,
-      "marital-status_Married-spouse-absent": 0.23313808289103688,
-      "marital-status_Never-married": -0.2222471139852861,
-      "marital-status_Separated": -0.11142424997616278,
-      "marital-status_Widowed": 0.2769640750926535,
-      "occupation_Armed-Forces": -0.44687954455272516,
-      "occupation_Craft-repair": -0.03076088688800202,
-      "occupation_Exec-managerial": 0.7848151877599283,
-      "occupation_Farming-fishing": -0.9046414073945781,
-      "occupation_Handlers-cleaners": -0.6990482880944815,
-      "occupation_Machine-op-inspct": -0.35545926369190645,
-      "occupation_Other-service": -0.8491711697155765,
-      "occupation_Priv-house-serv": -2.137728954008402,
-      "occupation_Prof-specialty": 0.3219800821055519,
-      "occupation_Protective-serv": 0.34132084933497364,
-      "occupation_Sales": 0.26529705594044745,
-      "occupation_Tech-support": 0.4719431721611999,
-      "occupation_Transport-moving": -0.21642732802155656,
-      "relationship_Not-in-family": 0.7198044000272522,
-      "relationship_Other-relative": -0.2352982312072219,
-      "relationship_Own-child": -0.19602832341202056,
-      "relationship_Unmarried": 0.4690107088611896,
-      "relationship_Wife": 1.1823420525280828,
-      "race_Asian-Pac-Islander": 0.6786067710220477,
-      "race_Black": 0.4277660737671088,
-      "race_Other": 0.44779359537785174,
-      "race_White": 0.7519904186793375,
-      "native-country-grouped_United-States": 0.21543054711702778
+      "age": 0.10651346585013345,
+      "fnlwgt": 0.0837716742667768,
+      "education-num": 0.7350239643752123,
+      "capital-gain": 2.351405889826831,
+      "capital-loss": 0.23019495709272658,
+      "hours-per-week": 0.3559907882367652,
+      "sex_Male": 0.7904268548652773,
+      "workclass_Local-gov": -0.6466554309557737,
+      "workclass_Never-worked": -0.5343901708066962,
+      "workclass_Private": -0.5168389881124719,
+      "workclass_Self-emp-inc": -0.46203765393759233,
+      "workclass_Self-emp-not-inc": -1.0638955187654449,
+      "workclass_State-gov": -0.7914227195053525,
+      "workclass_Without-pay": -2.4292767576373375,
+      "marital-status_Married-AF-spouse": 2.485723617408102,
+      "marital-status_Married-civ-spouse": 2.4495694791219447,
+      "marital-status_Married-spouse-absent": 0.23313816242016971,
+      "marital-status_Never-married": -0.2222472372813089,
+      "marital-status_Separated": -0.11142445877687082,
+      "marital-status_Widowed": 0.27696412117608515,
+      "occupation_Armed-Forces": -0.44687932423826815,
+      "occupation_Craft-repair": -0.030760805498688853,
+      "occupation_Exec-managerial": 0.7848152248467266,
+      "occupation_Farming-fishing": -0.904641254180719,
+      "occupation_Handlers-cleaners": -0.6990481516966978,
+      "occupation_Machine-op-inspct": -0.3554591655884622,
+      "occupation_Other-service": -0.8491709802481671,
+      "occupation_Priv-house-serv": -2.1377284914921613,
+      "occupation_Prof-specialty": 0.3219800862496878,
+      "occupation_Protective-serv": 0.34132080148719707,
+      "occupation_Sales": 0.2652972405242979,
+      "occupation_Tech-support": 0.4719430145905237,
+      "occupation_Transport-moving": -0.21642724797497007,
+      "relationship_Not-in-family": 0.7198039080736759,
+      "relationship_Other-relative": -0.23529848536902356,
+      "relationship_Own-child": -0.1960288612309465,
+      "relationship_Unmarried": 0.46901016630171305,
+      "relationship_Wife": 1.182342043177371,
+      "race_Asian-Pac-Islander": 0.6786069047397683,
+      "race_Black": 0.4277662903461468,
+      "race_Other": 0.44779384366613906,
+      "race_White": 0.7519905281939251,
+      "native-country-grouped_United-States": 0.21543056759401416
     }
   },
   "dropped_degenerate": {
@@ -328,75 +328,75 @@
   },
   "sm_age": {
     "Full": {
-      "coef": 0.31814006109184967,
-      "se": 0.02136887841107769,
-      "lo": 0.2762578290161219,
-      "hi": 0.36002229316757745,
-      "p": 3.9433653902591752e-50
+      "coef": 0.31814006109184956,
+      "se": 0.021368878411077704,
+      "lo": 0.2762578290161218,
+      "hi": 0.36002229316757733,
+      "p": 3.943365390260074e-50
     },
     "Age<30": {
-      "coef": 3.32507745857142,
-      "se": 0.37576601764680095,
-      "lo": 2.5885895973696478,
-      "hi": 4.061565319773192,
-      "p": 8.846719973751743e-19
+      "coef": 3.3250774585714216,
+      "se": 0.37576601764680556,
+      "lo": 2.5885895973696402,
+      "hi": 4.061565319773203,
+      "p": 8.846719973759884e-19
     },
     "Age>=30": {
-      "coef": 0.10723914848058724,
-      "se": 0.02501418220119632,
-      "lo": 0.05821225226351961,
-      "hi": 0.15626604469765487,
-      "p": 1.80993204038581e-05
+      "coef": 0.10723914848058715,
+      "se": 0.025014182201196323,
+      "lo": 0.058212252263519504,
+      "hi": 0.1562660446976548,
+      "p": 1.8099320403858475e-05
     }
   },
   "ovb": [
     {
       "feat": "sex_Male",
-      "full": 0.7915535876696715,
-      "reduced": 0.8170608999280047,
-      "pct": 3.2224365672356425
+      "full": 0.7915539903228304,
+      "reduced": 0.817069047410268,
+      "pct": 3.223413361485483
     },
     {
       "feat": "hours-per-week",
-      "full": 0.39723180351634785,
-      "reduced": 0.43201463839122944,
-      "pct": 8.756306661999215
+      "full": 0.39723181856297196,
+      "reduced": 0.43201981800259087,
+      "pct": 8.75760646905582
     },
     {
       "feat": "age",
-      "full": 0.3188167591955064,
-      "reduced": 0.23824851725847734,
-      "pct": -25.271018418333078
+      "full": 0.31881686076833465,
+      "reduced": 0.23824618221819804,
+      "pct": -25.271774634492296
     },
     {
       "feat": "capital-gain",
-      "full": 2.3303207982743546,
-      "reduced": 2.3527321412241546,
-      "pct": 0.9617278001550724
+      "full": 2.330320586906065,
+      "reduced": 2.3527439390166633,
+      "pct": 0.9622432311070769
     },
     {
       "feat": "occupation_Exec-managerial",
-      "full": 0.7653206934523663,
-      "reduced": 1.0496583418450323,
-      "pct": 37.1527453556779
+      "full": 0.7653210011600253,
+      "reduced": 1.0496754831501411,
+      "pct": 37.154929965218415
     },
     {
       "feat": "marital-status_Married-civ-spouse",
-      "full": 2.3365438870092956,
-      "reduced": 2.3440241257084042,
-      "pct": 0.32014115980004587
+      "full": 2.336543829221882,
+      "reduced": 2.344025535339483,
+      "pct": 0.32020397066947776
     },
     {
       "feat": "race_White",
-      "full": 0.7326115388039747,
-      "reduced": 0.9380633818659094,
-      "pct": 28.04376291934267
+      "full": 0.7326111176195762,
+      "reduced": 0.9380267344307552,
+      "pct": 28.038834228809158
     },
     {
       "feat": "capital-loss",
-      "full": 0.24160013957696275,
-      "reduced": 0.25683739545736733,
-      "pct": 6.306807565212807
+      "full": 0.24160000049565217,
+      "reduced": 0.25683633675440154,
+      "pct": 6.306430557736512
     }
   ],
   "adversarial": {
@@ -439,67 +439,67 @@
       {
         "bin": 0,
         "n": 1466,
-        "mean_p": 0.00191121736263576,
+        "mean_p": 0.0019112154905840861,
         "emp": 0.0
       },
       {
         "bin": 1,
         "n": 1465,
-        "mean_p": 0.0066894490569825785,
+        "mean_p": 0.006689444773736,
         "emp": 0.0013651877133105802
       },
       {
         "bin": 2,
         "n": 1465,
-        "mean_p": 0.016282022280631414,
+        "mean_p": 0.016282016315464578,
         "emp": 0.010238907849829351
       },
       {
         "bin": 3,
         "n": 1465,
-        "mean_p": 0.03471838925564277,
+        "mean_p": 0.034718386044501746,
         "emp": 0.031399317406143344
       },
       {
         "bin": 4,
         "n": 1465,
-        "mean_p": 0.07197988428489416,
+        "mean_p": 0.07197988688860288,
         "emp": 0.07508532423208192
       },
       {
         "bin": 5,
         "n": 1466,
-        "mean_p": 0.14721570230076458,
+        "mean_p": 0.14721571877912437,
         "emp": 0.1664392905866303
       },
       {
         "bin": 6,
         "n": 1465,
-        "mean_p": 0.2511440951467586,
+        "mean_p": 0.25114413281476144,
         "emp": 0.2668941979522184
       },
       {
         "bin": 7,
         "n": 1465,
-        "mean_p": 0.39378046126543803,
+        "mean_p": 0.3937804966522536,
         "emp": 0.3918088737201365
       },
       {
         "bin": 8,
         "n": 1465,
-        "mean_p": 0.603761602794544,
+        "mean_p": 0.603761639291646,
         "emp": 0.5767918088737202
       },
       {
         "bin": 9,
         "n": 1466,
-        "mean_p": 0.8666702117769066,
+        "mean_p": 0.8666702195701699,
         "emp": 0.8724420190995907
       }
     ],
     "young_exec_n": 276,
-    "young_exec_max_p": 0.9422103543497886,
-    "young_exec_mean_p": 0.21999370331855275,
+    "young_exec_max_p": 0.9422103268045894,
+    "young_exec_mean_p": 0.21999369999500967,
     "young_exec_ge075": 17
   },
   "fairness": [
@@ -676,7 +676,7 @@
   ],
   "q6_pair": {
     "female_idx": "24765",
-    "female_P": 0.28301548309004454,
+    "female_P": 0.28301550479012877,
     "female_y": 0,
     "female_feat": {
       "age": "37",
@@ -689,7 +689,7 @@
       "marital-status": "Married-civ-spouse"
     },
     "male_idx": "20355",
-    "male_P": 0.26549746506856764,
+    "male_P": 0.26549749027519465,
     "male_y": 1,
     "male_feat": {
       "age": "37",
