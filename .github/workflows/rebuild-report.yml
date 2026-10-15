@@ -50,6 +50,9 @@ jobs:
       - name: Add report-specific metrics
         run: python augment_results.py
 
+      - name: Apply report-builder fixups
+        run: python fix_build_report.py
+
       - name: Build PDF from results.json
         run: python build_report.py
 
@@ -80,6 +83,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add results.json results_from_nb.json chart_modelA_hist.png chart_agreement.png chart_fairness_tradeoff.png chart_ovb.png CSET485_A1_Report_Gautam_S24CSEU0777.pdf report_audit.md README.md
+          git add results.json results_from_nb.json chart_modelA_hist.png chart_agreement.png chart_fairness_tradeoff.png chart_ovb.png CSET485_A1_Report_Gautam_S24CSEU0777.pdf report_audit.md README.md build_report.py
           git diff --cached --quiet || git commit -m 'Rebuild CSET485 assignment report [skip ci]'
           git push
