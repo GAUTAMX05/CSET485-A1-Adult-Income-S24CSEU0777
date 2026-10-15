@@ -1,0 +1,230 @@
+{
+  "n": {
+    "v1": 48842,
+    "v2": 48842,
+    "changed": false
+  },
+  "train_n": {
+    "v1": 34189,
+    "v2": 34189,
+    "changed": false
+  },
+  "test_n": {
+    "v1": 14653,
+    "v2": 14653,
+    "changed": false
+  },
+  "modelA_median": {
+    "v1": 0.2141,
+    "v2": 0.2194
+  },
+  "modelA_acc": {
+    "v1": 0.7118,
+    "v2": 0.7092
+  },
+  "modelB_acc": {
+    "v1": 0.8513,
+    "v2": 0.8509
+  },
+  "mismatch": {
+    "v1": 4488,
+    "v2": 4514
+  },
+  "mismatch_pct": {
+    "v1": 30.63,
+    "v2": 30.81
+  },
+  "agreement_cm": {
+    "v1": [
+      [
+        7326,
+        0
+      ],
+      [
+        4488,
+        2839
+      ]
+    ],
+    "v2": [
+      [
+        7310,
+        16
+      ],
+      [
+        4498,
+        2829
+      ]
+    ]
+  },
+  "A_low_B_high": {
+    "v1": 0,
+    "v2": 16
+  },
+  "q1_band": {
+    "v1": null,
+    "v2": {
+      "in_median_to_half": 4410,
+      "ge_half": 88,
+      "below_median": 16
+    },
+    "note": "new in v2, did not exist in v1"
+  },
+  "age_full_sklearn": {
+    "v1": 0.3142,
+    "v2": 0.3188
+  },
+  "age_lt30_sklearn": {
+    "v1": 2.9073,
+    "v2": 3.3553
+  },
+  "age_ge30_sklearn": {
+    "v1": 0.1036,
+    "v2": 0.1065
+  },
+  "age_full_statsmodels": {
+    "v1": 0.3181,
+    "v2": 0.3181
+  },
+  "age_lt30_statsmodels": {
+    "v1": 3.3251,
+    "v2": 3.3251
+  },
+  "age_ge30_statsmodels": {
+    "v1": 0.1072,
+    "v2": 0.1072
+  },
+  "self_emp_not_inc_full": {
+    "v1": -0.9971,
+    "v2": -1.0095
+  },
+  "self_emp_not_inc_lt30": {
+    "v1": 0.2607,
+    "v2": 0.3455
+  },
+  "self_emp_not_inc_ge30": {
+    "v1": -1.0312,
+    "v2": -1.0639
+  },
+  "hardcoded_missing_in_v1_missing_count": {
+    "v1": "2799/2809/857 (hardcoded)",
+    "v2": "computed"
+  },
+  "ovb_exec": {
+    "v1": 35.19,
+    "v2": 37.15
+  },
+  "ovb_white": {
+    "v1": 31.15,
+    "v2": 28.04
+  },
+  "ovb_age": {
+    "v1": -25.88,
+    "v2": -25.27
+  },
+  "ovb_hours": {
+    "v1": 8.13,
+    "v2": 8.76
+  },
+  "adversarial": {
+    "hc": {
+      "v1": 754,
+      "v2": 752
+    },
+    "hc_pct": {
+      "v1": 5.146,
+      "v2": 5.132
+    },
+    "fp": {
+      "v1": 152,
+      "v2": 153
+    },
+    "fn": {
+      "v1": 602,
+      "v2": 599
+    }
+  },
+  "top_coefs": {
+    "v1": [
+      [
+        "marital-status_Married-civ-spouse",
+        1.9142
+      ],
+      [
+        "marital-status_Married-AF-spouse",
+        1.8038
+      ],
+      [
+        "capital-gain",
+        1.1954
+      ],
+      [
+        "relationship_Wife",
+        1.1474
+      ],
+      [
+        "occupation_Exec-managerial",
+        0.8052
+      ],
+      [
+        "education-num",
+        0.7687
+      ],
+      [
+        "sex_Male",
+        0.7676
+      ],
+      [
+        "race_Asian-Pac-Islander",
+        0.746
+      ]
+    ],
+    "v2": [
+      [
+        "marital-status_Married-AF-spouse",
+        2.7529
+      ],
+      [
+        "marital-status_Married-civ-spouse",
+        2.3365
+      ],
+      [
+        "capital-gain",
+        2.3303
+      ],
+      [
+        "relationship_Wife",
+        1.1554
+      ],
+      [
+        "sex_Male",
+        0.7916
+      ],
+      [
+        "race_Asian-Pac-Islander",
+        0.7891
+      ],
+      [
+        "education-num",
+        0.768
+      ],
+      [
+        "occupation_Exec-managerial",
+        0.7653
+      ]
+    ]
+  },
+  "fairness_order": {
+    "v1": "A=Male,B=Female",
+    "v2": "A=Female,B=Male"
+  },
+  "fairness_range_DP": {
+    "v1": [
+      2.2127,
+      3.9525
+    ],
+    "v2": [
+      0.4531,
+      0.2413
+    ]
+  }
+}
